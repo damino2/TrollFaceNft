@@ -18,7 +18,11 @@ const Home = () => {
   return (
     <>
       <Head>
-      <meta property="og:title" content="Web3.D Troll Face NFT" />
+      <title>Web3.D Troll Face NFT</title>
+        <meta name="description" content="Fresh-looking redesigned 3D Troll Face meme NFT with a greater sense of movement to be released and merged into web3 to offer new opportunities for memes and online content using blockchain technology
+        
+" />
+<meta property="og:title" content="Web3.D Troll Face NFT" />
         <meta property="og:description" content="Fresh-looking redesigned 3D Troll Face meme NFT with a greater sense of movement to be released and merged into web3 to offer new opportunities for memes and online content using blockchain technology" />
         <meta property="og:image" content={`${process.env.BASE_URL}${banner}`} />
 
