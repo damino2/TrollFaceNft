@@ -1,6 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import { Helmet } from 'react-helmet';
+import Head from "next/head";
 import {
   Hero,
   About,
@@ -13,21 +12,22 @@ import {
 } from "../components/Home";
 import { Navbar } from "../components";
 import styles from "../styles/Home.module.css";
-import Banners from './assets/images/hero-bg.png'
+import banner from '../public/assets/images/hero-bg.png';
+
 const Home = () => {
   return (
-    
     <div className={styles.container}>
-       <Navbar />
-      
+      <Head>
+      <meta property="og:title" content="Web3.D Troll Face NFT" />
+        <meta property="og:description" content="Fresh-looking redesigned 3D Troll Face meme NFT with a greater sense of movement to be released and merged into web3 to offer new opportunities for memes and online content using blockchain technology" />
+        <meta property="og:image" content={`${process.env.BASE_URL}${banner}`} />
 
-      <Helmet>
-        <meta property="og:title" content="Web3.D Troll Face NFT" />
-        <meta property="og:description" content="3D Fresh-looking redesigned Troll Face Meme NFT with a greater sense of movement that released and merged into web3 to offer new opportunities for Memes and online contents using blockchain technology" />
-        <meta property="og:image" content={Banners} />
+  
+
         <link rel="icon" href="/favicon.ico" />
-      </Helmet>
-     
+      </Head>
+
+      <Navbar />
 
       <main className={styles.main}>
         <Hero />
@@ -42,12 +42,5 @@ const Home = () => {
     </div>
   );
 };
-
-ReactDOM.render(
-  <React.StrictMode>
-    <Home />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
 
 export default Home;
