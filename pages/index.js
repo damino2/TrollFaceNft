@@ -12,7 +12,7 @@ import {
 } from "../components/Home";
 import { Navbar } from "../components";
 import styles from "../styles/Home.module.css";
-import banner from './assets/images/hero-bg.png';
+import banner from '../public/assets/images/hero-bg.png';
 
 const Home = () => {
   return (
