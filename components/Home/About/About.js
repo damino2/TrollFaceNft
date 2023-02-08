@@ -12,7 +12,7 @@ const About = () => {
             FIRST OF IT&apos;S KIND SOLANA MEMES NFT !
             </h3>
             <p className={styles.paragraph}>
-            The Troll Face meme, also known as "cool face" or "problem?" meme, is a popular internet meme face often associated with the Rage Comic character format, 
+            The Troll Face meme, also known as &quot;cool face&quot; or &quot;problem?&quot; meme, is a popular internet meme face often associated with the Rage Comic character format, 
             The Troll Face character feature a wide grin or sarcastic expression, typically used to indicate a sense of funny trolling or sarcasm on the internet for amusement.
             </p>
             <p className={styles.paragraph}>

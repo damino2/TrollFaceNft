@@ -13,7 +13,7 @@ import {
 } from "../components/Home";
 import { Navbar } from "../components";
 import styles from "../styles/Home.module.css";
-import Hero from './assets/images/hero-bg.png'
+import Banners from './assets/images/hero-bg.png'
 const Home = () => {
   return (
     
@@ -24,7 +24,7 @@ const Home = () => {
       <Helmet>
         <meta property="og:title" content="Web3.D Troll Face NFT" />
         <meta property="og:description" content="3D Fresh-looking redesigned Troll Face Meme NFT with a greater sense of movement that released and merged into web3 to offer new opportunities for Memes and online contents using blockchain technology" />
-        <meta property="og:image" content={Hero} />
+        <meta property="og:image" content={Banners} />
         <link rel="icon" href="/favicon.ico" />
       </Helmet>
      
