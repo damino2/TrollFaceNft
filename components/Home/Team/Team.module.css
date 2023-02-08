@@ -1,0 +1,380 @@
+.main {
+  display: block;
+  background: url("/assets/images/about-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: auto;
+  width: 100vw;
+  padding: 40px 0 120px 0;
+}
+
+@media only screen and (max-width: 655px) {
+  .main {
+    padding-top: 80px;
+  }
+}
+@media only screen and (min-width: 656px) and (max-width: 780px) {
+  .main {
+    padding-top: 130px;
+  }
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+@media only screen and (min-width: 656px) and (max-width: 780px) {
+  .container {
+    width: 95%;
+  }
+}
+
+@media only screen and (min-width: 781px) and (max-width: 1024px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  .container {
+    width: 70%;
+  }
+}
+
+.leftHolder {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.rightHolder {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.heading {
+  color: #fff;
+  font-size: 40px;
+  letter-spacing: 0.9px;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-bottom: 0;
+  line-height: 1;
+  position: relative;
+}
+
+@media only screen and (max-width: 655px) {
+  .heading {
+    font-size: 30px;
+    display: inline-block;
+  }
+}
+
+.heading:after {
+  content: "";
+  background: url("/assets/images/about-bg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  display: inline-block;
+  right: -40px;
+  top: -50px;
+}
+
+.subHeading {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 800;
+  margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 655px) {
+  .subHeading {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 656px) and (max-width: 780px) {
+  .subHeading {
+    margin-bottom: 20px;
+  }
+}
+
+.paragraph {
+  color: #fff;
+  line-height: 1.4;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 655px) {
+  .paragraph {
+    font-size: 14px;
+    line-height: 1.6;
+    letter-spacing: 0.6;
+  }
+}
+
+.button {
+  background: linear-gradient(111.99deg, #7504dc 39.91%, #e908b8 79.88%);
+  border-radius: 20px;
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  width: auto;
+  max-width: 250px;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.9px;
+  transition-duration: 0.3s;
+  margin-top: 40px;
+}
+
+.button span {
+  margin-left: 15px;
+}
+
+@media only screen and (max-width: 655px) {
+  .button {
+    font-size: 14px;
+    padding: 8px 20px;
+    border-radius: 12px;
+    justify-content: center;
+  }
+
+  .button span {
+    margin-left: 10px;
+  }
+}
+
+.button:hover {
+  opacity: 0.8;
+  transition-duration: 0.3s;
+}
+
+.teamContainer {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+@media only screen and (max-width: 655px) {
+  .teamContainer {
+    width: 95%;
+  }
+}
+
+@media only screen and (min-width: 656px) and (max-width: 780px) {
+  .teamContainer {
+    width: 95%;
+  }
+}
+
+.headerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+@media only screen and (min-width: 656px) and (max-width: 780px) {
+  .headerContainer {
+    width: 70%;
+  }
+}
+
+.teamHeader {
+  font-size: 45px;
+  background: -webkit-linear-gradient(
+    142.33deg,
+    #e908b8 17.45%,
+    #0500ff 83.27%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 1;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 655px) {
+  .teamHeader {
+    font-size: 40px;
+  }
+}
+
+.teamDescription {
+  font-size: 16px;
+  color: #fff;
+  line-height: 1.6;
+}
+
+@media only screen and (max-width: 655px) {
+  .teamDescription {
+    font-size: 14px;
+  }
+}
+
+.teamSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+@media only screen and (min-width: 656px) and (max-width: 780px) {
+  .teamSection {
+    width: 90%;
+  }
+}
+
+@media only screen and (min-width: 781px) and (max-width: 1024px) {
+  .teamSection {
+    width: 100%;
+  }
+}
+
+.teamCard {
+  width: 100%;
+  height: auto;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 4px 4px 4px 4px;
+  border-radius: 28px;
+  background-image: linear-gradient(90deg, #090c58 -22.19%, #380951 124.1%),
+    linear-gradient(52deg, #0500ff, #e908b8);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  color: #fff;
+}
+
+@media only screen and (max-width: 655px) {
+  .teamCard {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .teamCard img {
+    width: 100%;
+    height: auto;
+    margin-left: -20px;
+  }
+}
+
+@media only screen and (min-width: 656px) and (max-width: 1024px) {
+  .teamCard img {
+    width: 300px;
+    height: auto;
+  }
+}
+
+.topCard {
+  width: 100%;
+  text-align: left;
+  display: block;
+  min-height: auto;
+}
+
+.topCardContent {
+  padding: 10px 10% 40px 10%;
+}
+
+@media only screen and (max-width: 655px) {
+  .topCardContent {
+    padding: 30px;
+  }
+}
+
+.cardHeading {
+  font-size: 27px;
+  margin: 0;
+  margin-bottom: 10px;
+  font-weight: 800;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 655px) {
+  .cardHeading {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (min-width: 656px) and (max-width: 1024px) {
+  .cardHeading {
+    margin-top: 30px;
+  }
+}
+
+.cardDescription {
+  font-size: 14px;
+  margin: 0;
+  line-height: 1.6;
+  font-weight: 500;
+  max-width: 90%;
+}
+
+@media only screen and (max-width: 655px) {
+  .cardDescription {
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    max-width: 95%;
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (min-width: 656px) and (max-width: 1024px) {
+  .cardDescription {
+    margin-bottom: 30px;
+    max-width: 90%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .teamSection {
+    width: 95%;
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+  .headerContainer {
+    width: 100%;
+  }
+  .container {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .leftHolder {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .rightHolder {
+    padding: 15px;
+  }
+  .teamCard {
+    width: 100%;
+  }
+}
+

@@ -1,0 +1,127 @@
+.main {
+  display: block;
+  padding: 40px 0;
+  padding-bottom: 80px;
+  background: linear-gradient(90deg, #090c58 -22.19%, #380951 124.1%);
+  min-height: 400px;
+  height: auto;
+  width: 100vw;
+}
+
+@media only screen and (max-width: 655px) {
+  .main {
+    min-height: auto;
+  }
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+@media only screen and (max-width: 655px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  .container {
+    width: 60%;
+  }
+}
+
+.headingContainer {
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 655px) {
+  .headingContainer {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 656px) and (max-width: 780px) {
+  .headingContainer {
+    margin-bottom: 20px;
+  }
+}
+
+.heading {
+  color: #fff;
+  font-size: 45px;
+  position: relative;
+}
+
+@media only screen and (max-width: 655px) {
+  .heading {
+    font-size: 35px;
+    padding-left: 10%;
+  }
+}
+
+.heading img {
+  padding-bottom: 13px !important;
+}
+
+.faqsHolder {
+  width: 100%;
+  display: block;
+}
+
+.faq {
+  width: 100%;
+  margin-bottom: 15px;
+  color: #fff;
+  padding: 3px 3px 3px 3px;
+  border-radius: 9px;
+  background-image: linear-gradient(90deg, #090c58 -22.19%, #380951 124.1%),
+    linear-gradient(359deg, #0500ff, #e908b8);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+
+.faqHeader {
+  font-size: 18px;
+  font-weight: 800;
+  margin-left: 20px;
+}
+
+@media only screen and (max-width: 655px) {
+  .faqHeader {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.6;
+  }
+}
+
+.faqHeaderHolder {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+  background: #0000004d;
+  padding: 12px;
+}
+
+.faqContent {
+  font-size: 14px;
+  line-height: 1.6;
+  font-weight: 500;
+  display: none;
+  transition-duration: 0.3s;
+  background: #0000004d;
+}
+
+.displayFaqContent {
+  display: block;
+  transition-duration: 0.3s;
+  padding: 20px 24px 20px;
+}
