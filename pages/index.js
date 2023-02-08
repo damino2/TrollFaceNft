@@ -16,7 +16,7 @@ import banner from '../public/assets/images/hero-bg.png';
 
 const Home = () => {
   return (
-    <div className={styles.container}>
+    <>
       <Head>
       <meta property="og:title" content="Web3.D Troll Face NFT" />
         <meta property="og:description" content="Fresh-looking redesigned 3D Troll Face meme NFT with a greater sense of movement to be released and merged into web3 to offer new opportunities for memes and online content using blockchain technology" />
@@ -39,7 +39,7 @@ const Home = () => {
         <Footer />
         <Copyright />
       </main>
-    </div>
+    </>
   );
 };
 
