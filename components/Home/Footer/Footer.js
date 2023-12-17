@@ -12,7 +12,7 @@ const Footer = () => {
 
         
           
-              <h3 className={styles.heading}>Wanna join the community ?</h3>
+              <h3 className={styles.heading}>TROLOLOLOLOOO ?</h3>
           
           
           

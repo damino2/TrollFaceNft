@@ -375,4 +375,86 @@
     box-sizing: border-box;
   }
 
-  
+ 
+
+
+  .main {
+    display: block;
+    background: url("/assets/images/about-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 400px;
+    height: auto;
+    width: 100vw;
+    padding: 40px 0;
+  }
+
+
+.heading {
+  color: #ff9800;
+  font-size: 40px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-bottom: 0;
+  line-height: 1;
+  position: relative;
+}
+
+
+.subHeading {
+  color: #9b34db; 
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+
+.paragraph {
+  color: #333;
+  line-height: 1.6;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+
+.button {
+  background: linear-gradient(111.99deg, #7504dc 39.91%, #e908b8 79.88%);
+  border-radius: 20px;
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  width: auto;
+  max-width: 250px;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.9px;
+  transition-duration: 0.3s;
+  margin-top: 40px;
+  cursor: pointer; 
+}
+
+
+.button:hover {
+  opacity: 0.8;
+  transform: scale(1.05);
+  transition-duration: 0.3s;
+}
+
+/* Give the card a vibrant look */
+.teamCard {
+  background-image: linear-gradient(
+    90deg,
+    rgba(160, 255, 206, 0.691) -42.19%,
+    hsla(166, 100%, 53%, 0.578) 84.1%
+  ); /* Gold to Pink gradient */
+  color: #fff;
+}
+
+/* Add a playful shadow to the card */
+.teamCard {
+  box-shadow: 0 0 20px rgba(255, 105, 180, 0.6);
+}

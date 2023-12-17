@@ -49,12 +49,12 @@ const MobileMenu = () => {
                  <li  >
                  <a style={{marginRight: '10px'}}
               href="https://twitter.com/Internetmemes3"
-              title="Follow us on Twitter"
+              title="Follow us on X/Twitter"
               target="_blank"
               rel="noreferrer"
             >
               <Image
-                alt="Follow us on Twitter"
+                alt="Follow us on X/Twitter"
                 src="/assets/images/twitter-icon.png"
                 height={60}
                 width={60}
@@ -92,6 +92,18 @@ const MobileMenu = () => {
               height={22}
             />
            <p> Join Discord </p>
+          </a>
+          
+                 </li>
+                 <li>
+                 <a
+            href="https://docs.trollfacenft.com/"
+            target="_blank"
+            rel="noreferrer"
+            title="Go to Whitepaper"
+            className={styles.mintButton}
+          >
+            Read Whitepaper
           </a>
                  </li>
              </ul>)}

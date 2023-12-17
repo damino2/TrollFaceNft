@@ -5,7 +5,7 @@ const Copyright = () => {
     <div className={styles.main}>
       <div className={styles.container}>
         <p className={styles.copyRightText}>
-          Copyright 2023. ALL RIGHTS RESERVED.
+          TROLOLOLOLOLOLOOOO.
         </p>
       </div>
     </div>

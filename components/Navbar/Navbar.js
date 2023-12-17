@@ -9,37 +9,43 @@ const Navbar = () => {
   return (
     <header className={styles.navbar}>
       <div className={styles.container}>
-        <div className={styles.leftContainer}>
-          
-          <ul className={styles.linksHolder}>
-              <li>
-                <Link to="about" spy={true} smooth={true} offset={-40} duration={500} > About us </Link>
-              </li>
-          </ul>
-          <ul className={styles.linksHolder}>
-              <li>
-                <Link to="roadmap" spy={true} smooth={true} offset={-31} duration={500} > Roadmap </Link>
-              </li>
-          </ul>
-          <ul className={styles.linksHolder}>
-              <li>
-                <Link to="team" spy={true} smooth={true} offset={-110} duration={500} > Team </Link>
-              </li>
-          </ul>
-          <ul className={styles.linksHolder}>
-              <li>
-                <Link to="faqs" spy={true} smooth={true} offset={-33} duration={500} > Faqs </Link>
-              </li>
-          </ul>
-        </div>
+        <ul className={styles.linksHolder}>
+  <li>
+    <Link to="about" spy={true} smooth={true} offset={-40} duration={500}>
+      <span role="img" aria-label="Cool Guy">😎</span> About Us
+    </Link>
+  </li>
+</ul>
+<ul className={styles.linksHolder}>
+  <li>
+    <Link to="roadmap" spy={true} smooth={true} offset={-31} duration={500}>
+      <span role="img" aria-label="Road">🛣️</span> Roadmap
+    </Link>
+  </li>
+</ul>
+<ul className={styles.linksHolder}>
+  <li>
+    <Link to="team" spy={true} smooth={true} offset={-110} duration={500}>
+      <span role="img" aria-label="Team">👥</span> Team
+    </Link>
+  </li>
+</ul>
+<ul className={styles.linksHolder}>
+  <li>
+    <Link to="faqs" spy={true} smooth={true} offset={-33} duration={500}>
+      <span role="img" aria-label="Question">❓</span> FAQs
+    </Link>
+  </li>
+</ul>
+
 
         <div className={styles.rightContainer}>
           <a
-            href="https://troll-face-nft.gitbook.io/"
+            href="https://docs.trollfacenft.com/"
             target="_blank"
             rel="noreferrer"
             title="Go to Whitepaper"
-            className={styles.mintButton}
+            className={`${styles.mintButton} ${styles.funnyButton}`}
           >
             Read Whitepaper
           </a>

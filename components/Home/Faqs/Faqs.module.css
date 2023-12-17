@@ -55,9 +55,14 @@
 }
 
 .heading {
-  color: #fff;
-  font-size: 45px;
+  font-weight: 800;
+  font-size: 56px;
+  background: -webkit-linear-gradient(93deg, #0500ff 31%, #e908b8 47%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
   position: relative;
+  padding-left: 40px;
 }
 
 @media only screen and (max-width: 655px) {
